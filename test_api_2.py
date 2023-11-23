@@ -3,6 +3,8 @@ import json
 from api import app
 import time
 
+#adding comments to trigger TI 1
+
 def test_index_route_2():
     response = app.test_client().get('/')
 
